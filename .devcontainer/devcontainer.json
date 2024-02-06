@@ -11,10 +11,28 @@
 			"installMaven": "true",
 			"installGradle": "true"
 		}
-	}
+	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"esbenp.prettier-vscode",
+				"vscode-icons-team.vscode-icons",
+				"wayou.vscode-todo-highlight",
+				"ritwickdey.liveserver",
+				"vscjava.vscode-java-pack"
+			],
+			"settings": {
+				"editor.fontSize": 50,
+				"terminal.integrated.fontSize": 44,
+				"editor.wordWrap": "off"
+			}
+			
+		}
+		
+	 }
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "java -version",
